@@ -1,7 +1,7 @@
 ---
 title: "Embedding groups into boundedly acyclic groups"
 collection: publications
-category: journal-articles
+category: manuscripts
 permalink: /publication/2025-05-01-embedding-groups-into-boundedly-acyclic-groups
 excerpt: "Embedding groups into boundedly acyclic groups."
 date: 2025-05-01
