@@ -4,7 +4,7 @@ collection: talks
 type: "Talk"
 permalink: /talks/2012-03-01-talk-1
 venue: "Topology Forum"
-date: 2012-03-01
+date: 2024-01-01
 location: "Tongji university, Shanghai, China"
 ---
 
