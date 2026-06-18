@@ -8,4 +8,6 @@ date: 2024-01-01
 location: "Tongji university, Shanghai, China"
 ---
 
-This is a description of your talk, which is a markdown file that can be all markdown-ified like any other post. Yay markdown!
+Title: EMBEDDING GROUPS INTO BOUNDED ACYCLIC GROUPS
+
+Abstract: We study the finiteness properties of the labeled Thompson groups, and the bounded cohomology of these groups and the twisted Brin Thompson groups. We then deduce several interesting results regarding embedding of groups. Prove that for any n ∈ N ∪ {∞}, a group of type Fn embeds quasi-isometrically as a subgroup of a bounded acyclic group of type Fn with no finite quotients.  
