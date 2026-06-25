@@ -17,10 +17,10 @@ Education
 
 Teaching experience
 ======
-* Spring 2024: Algebraic Topology
+* Spring 2024: Algebraic Topology (TA)
   * Fudan University
   * Undergraduate studengts & Graduated students
-  * TA
+
 
 
   
@@ -38,15 +38,3 @@ Talks
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
   
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
