@@ -1,0 +1,79 @@
+:root{--paper:#f7f4ed;--green:#25443c;--ink:#303531;--muted:#6b7069;--rule:#d9ddd3;--link:#2c6757;--width:960px}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:Georgia,'Times New Roman','Noto Serif CJK SC',serif;font-size:17px;line-height:1.75;-webkit-font-smoothing:antialiased}
+a{color:var(--link);text-decoration-thickness:1px;text-underline-offset:3px}
+a:hover{text-decoration:underline;color:#173d30}
+a:focus-visible{outline:2px solid var(--link);outline-offset:5px}
+.skip{position:absolute;left:14px;top:-70px;padding:8px 14px;background:var(--paper);z-index:10}.skip:focus{top:10px}
+.masthead{background:var(--green);color:var(--paper);text-align:center;padding:34px 24px 30px}
+.name{display:inline-block;color:inherit;font-size:46px;line-height:1.2;letter-spacing:-1px;text-decoration:none;font-weight:normal}
+.name:hover{color:white;text-decoration:none}
+.chinese-name{display:block;font-family:'Noto Serif CJK SC','Songti SC','STSong',serif;font-size:21px;line-height:1.5;letter-spacing:6px;margin-top:9px;padding-left:6px}
+.affiliation{font-family:Arial,Helvetica,sans-serif;font-size:11px;letter-spacing:2.3px;text-transform:uppercase;color:#d6dfd9;margin:13px 0 0}
+.site-nav{border-bottom:1px solid var(--rule)}
+.site-nav ul{list-style:none;margin:0 auto;padding:0 24px;display:flex;justify-content:center;align-items:stretch;gap:45px;max-width:var(--width)}
+.site-nav a{display:flex;align-items:center;min-height:57px;color:#525d56;font-size:14px;letter-spacing:.6px;text-decoration:none;border-bottom:2px solid transparent;padding:0 3px}
+.site-nav a:hover{color:var(--green)}
+.site-nav a[aria-current=page]{color:var(--green);border-bottom-color:var(--green)}
+main{max-width:var(--width);margin:0 auto;padding:44px 24px 62px;min-height:65vh}
+h1,h2,h3{color:var(--green);font-weight:normal;line-height:1.28}
+h1{font-size:31px;letter-spacing:-.4px;margin:0 0 25px}
+h2{font-size:26px;margin:0 0 20px}
+h3{font-size:21px;margin:0 0 12px}
+p{margin:0 0 19px}
+section+section{border-top:1px solid var(--rule);padding-top:30px;margin-top:34px}
+.intro{display:grid;grid-template-columns:minmax(0,1fr) 170px;gap:52px;align-items:start}
+.intro p{max-width:660px}
+.portrait{display:block;width:170px;height:190px;object-fit:cover;object-position:50% 38%;margin-top:4px}
+.inline-links{display:flex;flex-wrap:wrap;column-gap:23px;row-gap:3px;font-size:15px;margin:22px 0 0}
+.research-list{margin:0;padding-left:20px}
+.research-list li{padding-left:4px;margin:0 0 12px}
+.research-list li:last-child{margin-bottom:0}
+.research-list strong{font-weight:bold}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:30px}
+.contact-grid p{margin:0;font-size:16px}
+.contact-label{display:block;color:var(--muted);font-family:Arial,Helvetica,sans-serif;font-size:10px;letter-spacing:1.4px;text-transform:uppercase;margin:0 0 6px}
+.note{color:var(--muted);font-size:15px}
+.page-intro{margin-top:-12px;margin-bottom:30px}
+.personal-copy{max-width:720px;font-size:18px;line-height:1.85}
+.personal-copy p{margin-bottom:24px}
+.papers{list-style:none;counter-reset:papers;margin:0;padding:0}
+.paper{display:grid;grid-template-columns:27px 1fr;gap:10px;margin:0 0 32px}
+.paper:last-child{margin-bottom:0}
+.paper-number{color:#959d94;font-size:16px;padding-top:3px}
+.paper-title{font-size:21px;color:var(--green);line-height:1.45;margin:0 0 7px}
+.paper p{margin:2px 0;font-size:16px;line-height:1.65}
+.paper .paper-authors{color:#626c64}
+.paper .paper-links{margin-top:8px;font-size:15px;display:flex;gap:19px;flex-wrap:wrap}
+.section-kicker{font-family:Arial,Helvetica,sans-serif;text-transform:uppercase;letter-spacing:1.5px;color:var(--muted);font-size:11px;margin:0 0 23px;font-weight:normal}
+.year-list{list-style:none;margin:0;padding:0}
+.year-list li{display:grid;grid-template-columns:108px 1fr;gap:22px;padding:0 0 20px}
+.year-list li:last-child{padding-bottom:0}
+.date{font-size:14px;color:var(--muted);padding-top:3px}
+.item-title{display:block;font-weight:normal;font-size:18px;color:var(--ink);line-height:1.5}
+.item-detail{display:block;font-size:15px;color:var(--muted);line-height:1.6;margin-top:3px}
+.item-body{font-size:16px;margin-top:5px;line-height:1.6}
+.seminar-intro,.conference-intro{max-width:730px;margin-bottom:25px}
+.jump-links{display:flex;flex-wrap:wrap;gap:6px 21px;font-size:14px;margin:0 0 34px;padding-bottom:19px;border-bottom:1px solid var(--rule)}
+.cv-heading{display:flex;justify-content:space-between;align-items:baseline;gap:25px;margin:0 0 22px}
+.cv-heading h1{margin:0}
+.download{font-size:14px;white-space:nowrap}
+.compact li{padding-bottom:13px}
+.footer{border-top:1px solid var(--rule);max-width:calc(var(--width) - 48px);margin:0 auto;padding:19px 0 26px;display:flex;justify-content:space-between;gap:20px;font-size:13px;color:var(--muted)}
+.footer a{color:inherit}
+@media(max-width:650px){
+ body{font-size:16px;line-height:1.72}
+ .masthead{padding:27px 18px 24px}.name{font-size:36px}.chinese-name{font-size:18px;margin-top:8px}.affiliation{font-size:9px;letter-spacing:1.5px;margin-top:12px}
+ .site-nav ul{gap:0;padding:0 14px;justify-content:space-between}.site-nav a{font-size:12px;letter-spacing:0;min-height:53px;padding:0 5px}
+ .personal-copy{font-size:16px;line-height:1.8}
+ main{padding:30px 23px 42px}h1{font-size:28px;margin-bottom:21px}h2{font-size:24px;margin-bottom:18px}
+ .intro{grid-template-columns:minmax(0,1fr) 91px;gap:18px}.portrait{width:91px;height:112px;margin-top:3px}.intro .lead{grid-column:1/-1}.intro-copy{display:contents}.intro h1{grid-column:1;grid-row:1}.intro .portrait{grid-column:2;grid-row:1/span 2}.intro p{grid-column:1/-1}.intro .opening{grid-column:1;grid-row:2;font-size:15px;margin-top:-8px}.intro .inline-links{grid-column:1/-1;margin-top:0;gap:8px 20px}
+ section+section{margin-top:28px;padding-top:26px}.research-list{padding-left:18px}.research-list li{padding-left:2px;margin-bottom:14px}
+ .contact-grid{grid-template-columns:1fr;gap:22px}.contact-grid p{font-size:15px}
+ .year-list li{grid-template-columns:75px 1fr;gap:15px;padding-bottom:22px}.date{font-size:12px}.item-title{font-size:16px}.item-detail{font-size:14px}.item-body{font-size:15px}
+ .paper{grid-template-columns:20px 1fr;gap:8px}.paper-title{font-size:19px}.paper p{font-size:15px}
+ .jump-links{gap:6px 18px;font-size:13px}.cv-heading{align-items:start;flex-direction:column;gap:10px}.cv-heading h1{margin:0}.footer{margin:0 23px;flex-direction:column;gap:3px;font-size:12px}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+@media print{body{background:white;color:#111;font-size:11pt}.masthead{background:white;color:#111;padding:0;text-align:left}.name{font-size:24pt}.chinese-name{display:inline;font-size:16pt;margin-left:15px}.affiliation,.site-nav,.footer,.skip,.jump-links,.download{display:none}main{max-width:none;padding:20px 0}a{color:inherit;text-decoration:none}section{break-inside:avoid}.portrait{width:110px;height:125px}}
